@@ -1,5 +1,5 @@
 pipeline {
-    node master
+    agent any
      stages {
 
         stage('Example stage') {
