@@ -4,7 +4,7 @@ pipeline {
 
         stage('Example stage 1') {
             steps {
-            sh 'echo "Test Job"'
+            sh 'exit 1'
             }
         }
 
